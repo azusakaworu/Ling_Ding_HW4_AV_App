@@ -1,12 +1,7 @@
 
-<!-- <div class="small-12 large-6 columns"> -->
-    
-<!-- <section id="footerLinks"> -->
-
-<!-- </div> -->
 <div class="small-12 large-6 columns" id="footerContentLinks">   
     
-<ul class="footerRowLinks" >
+<ul class="footerRowLinks">
     
     <li>
         

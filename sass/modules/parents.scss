@@ -1,0 +1,33 @@
+.thumbPic {
+    // max-width: 80%;
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    float: left;
+}
+
+.rightArrow {
+    float: left;
+}
+
+#thumbSection {
+    margin-top: 80px;
+    // float: left;
+    margin-right: 210px;
+    width: 1500px;
+}
+
+.thumbPic:hover {
+    animation-name: thumbnailAnimation;
+    animation-duration: 1s;
+}
+@keyframes thumbnailAnimation {
+    from {
+        border: 0px solid yellow;
+        border-radius: 10px;
+    }
+    to {
+        border: 5px solid yellow;
+        border-radius: 10px;
+    }
+}

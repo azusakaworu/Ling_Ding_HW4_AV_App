@@ -2,6 +2,8 @@
 @import 'modules/header';
 @import 'modules/content-links';
 @import 'modules/footer';
+@import 'modules/selection';
+@import 'modules/login';
 // sass --watch sass/master.scss:css/main.css
 
 .hide {
@@ -16,6 +18,11 @@
 
 #banner {
     margin-left: 30px;
+}
+
+#parentsHeader {
+    color: $purple-text;
+    margin-left: 50px;
 }
 
 .bannerText {
