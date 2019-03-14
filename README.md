@@ -1,2 +1,3 @@
-# Ling_Ding_HW4_AV_App
-AUDIO / VIDEO APP  ( Part 1 - Fall Term: Designer ) 
+# Ling_Ding_hw4_av_app
+
+winter term 
