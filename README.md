@@ -1,3 +1,7 @@
-# Ling_Ding_hw4_av_app
+<h2>Roku Audio Video App</h2>
 
-winter term 
+Authors: Ling Ding and Lia Vernaet
+
+Languages: HTML, CSS, JS, PHP, Vue, SASS
+
+Welcome to Roku Flashback. This is a new streaming website that you and your family can use to watch anything, anytime. 
