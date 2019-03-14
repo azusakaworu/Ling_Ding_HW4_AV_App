@@ -1,0 +1,167 @@
+
+    #submitButton {
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: gray;
+        float: right;
+        margin-right: 340px;
+        margin-bottom: 30px;
+        font-family: $main-font;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    #searchbar {
+        width: 600px;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+
+    #kidsLogo {
+        max-width: 80%;
+        margin-top: 100px;
+        background-color: blue;
+        float: left;
+    }
+
+    #kidsNav {
+        margin-top: 0px;
+        // margin-top: 10px;
+        padding: 0;
+    }
+    
+.favNav {
+    // width: 100px;
+    // padding: 10px;
+    margin-top: -70px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    float: right;
+    // background-color: red;
+}
+.favNav img {
+    margin-top: 0px;
+    width: 60px;
+    // background-color: green;
+    margin-left: 10px;
+}
+
+    #promoContainer {
+        width: 1260px;
+        margin-left: 110px;
+        overflow: hidden;
+        background-color: white;
+        padding-top: 20px;
+        
+    }
+    
+    #promoImage {
+        float: left;
+        width: 35%;
+    }
+
+    #promoImage img {
+        border: 1px solid black;
+    }
+    
+    #promoDesc {
+        width: 671px;
+        height: 263px;
+        float: left;
+        padding-right: 10px;
+        
+        
+    }
+    
+    #promoContent {
+        margin: 0 auto;
+        position: absolute;
+        width: 585px;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+    
+    #promoContent h2 {
+    font-size: 25px;
+    }
+    
+    #promoContent p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-family: $main-font;
+    }
+
+    p{
+        font-family: $main-font;
+    }
+
+    #sectionHeader {
+        color: $purple-text;
+    }
+
+    .thumbPic {
+        // max-width: 80%;
+        // display: block;
+        // margin-left: auto;
+        // margin-right: auto;
+        float: left;
+    }
+
+    .rightArrow {
+        float: left;
+    }
+    
+    #thumbSection {
+        margin-top: 80px;
+        // float: left;
+        margin-right: 210px;
+        width: 1500px;
+    }
+
+    .thumbPic:hover {
+        animation-name: thumbnailAnimation;
+        animation-duration: 1s;
+    }
+    @keyframes thumbnailAnimation {
+        from {
+            border: 0px solid yellow;
+            border-radius: 10px;
+        }
+        to {
+            border: 5px solid yellow;
+            border-radius: 10px;
+        }
+    }
+
+    #bottomSection {
+        background-color: #efe9e9;
+       height: 200px;
+       margin-top: 70px;
+    }
+
+    #bottomSection h2 {
+        font-size: 23px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #bottomSection p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #bottomSection a {
+        margin-left: 130px;
+        padding: 10px;
+
+    }
