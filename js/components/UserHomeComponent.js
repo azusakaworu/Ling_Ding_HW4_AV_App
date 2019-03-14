@@ -84,7 +84,8 @@ export default {
                 <div class="thumb-wrapper clearfix">
                     <img v-if="activeMediaType == 'video'" v-for="media in retrievedMedia" :src="'images/video/' + media.movies_cover" alt="media thumb" @click="switchActiveMedia(media)" class="img-thumbnail rounded float-left media-thumb">
                     <img v-if="activeMediaType == 'audio'" v-for="media in retrievedMedia" :src="'images/audio/' + media.audio_cover" alt="media thumb" @click="switchActiveMedia(media)" class="img-thumbnail rounded float-left media-thumb audio-thumb">
-                </div>
+                    <img v-if="activeMediaType == 'television'" v-for="media in retrievedMedia" :src="'images/tv/' + media.tv_cover" alt="media thumb" @click="switchActiveMedia(media)" class="img-thumbnail rounded float-left media-thumb">
+                    </div>
             </div>       
         </div> <!-- end 2-up for media info -->
     </div>
@@ -111,6 +112,8 @@ export default {
 
             // controls mute / unmute for video element
             vidActive: false
+
+
         }
     },
 

@@ -7,7 +7,10 @@
 
         if ($type == "video") {
             $tbl = "tbl_movies";
-        } else {
+        }else if($type == "television"){
+            $tbl = "tbl_tv";
+        }
+         else {
             $tbl = "tbl_audio";
         }
     }

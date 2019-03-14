@@ -18,6 +18,7 @@ let router = new VueRouter({
 const vm = new Vue({
  
   data: {
+ 
     authenticated: false,
     administrator: false,
 
