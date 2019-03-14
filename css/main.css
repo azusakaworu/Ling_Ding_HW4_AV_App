@@ -6,11 +6,18 @@
 #mainNav {
   margin: 0;
   padding: 0;
-  margin-left: 50px; }
+  margin-left: 30px; }
 
 #iconNav {
-  float: right;
-  background-color: blue; }
+  margin-top: -70px;
+  list-style-type: none;
+  margin-right: 0px;
+  width: 500px;
+  padding: 0; }
+
+.iconNavSVG {
+  width: 100%;
+  float: right; }
 
 #mainNav li {
   float: left;
@@ -113,8 +120,8 @@ ul {
 .footerBottom {
   background-color: #333333;
   padding: 40px;
-  padding-right: 100px;
-  margin-left: 300px; }
+  padding-right: 800px;
+  margin-left: 400px; }
 
 .footerBottom p {
   margin-top: 20px;
@@ -129,9 +136,152 @@ ul {
 #footerContentLinks {
   background-color: #663091;
   padding-right: 1600px;
-  margin-top: 0;
+  margin-top: 70px;
   padding-bottom: 0;
   padding-top: 0; }
+
+#submitButton {
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: gray;
+  float: right;
+  margin-right: 340px;
+  margin-bottom: 30px;
+  font-family: "Calibri";
+  color: white;
+  font-size: 20px;
+  border-radius: 10px; }
+
+#searchbar {
+  width: 600px;
+  margin-left: 200px;
+  margin-top: 10px; }
+
+#kidsLogo {
+  max-width: 80%;
+  margin-top: 100px;
+  background-color: blue;
+  float: left; }
+
+#kidsNav {
+  margin-top: 0px;
+  padding: 0; }
+
+.favNav {
+  margin-top: -70px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+  float: right; }
+
+.favNav img {
+  margin-top: 0px;
+  width: 60px;
+  margin-left: 10px; }
+
+#promoContainer {
+  width: 1260px;
+  margin-left: 110px;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 20px; }
+
+#promoImage {
+  float: left;
+  width: 35%; }
+
+#promoImage img {
+  border: 1px solid black; }
+
+#promoDesc {
+  width: 671px;
+  height: 263px;
+  float: left;
+  padding-right: 10px; }
+
+#promoContent {
+  margin: 0 auto;
+  position: absolute;
+  width: 585px;
+  margin-top: 60px;
+  margin-left: 40px; }
+
+#promoContent h2 {
+  font-size: 25px; }
+
+#promoContent p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-bottom: 30px; }
+
+h2 {
+  font-family: "Calibri"; }
+
+p {
+  font-family: "Calibri"; }
+
+#sectionHeader {
+  color: #663091; }
+
+.thumbPic {
+  float: left; }
+
+.rightArrow {
+  float: left; }
+
+#thumbSection {
+  margin-top: 80px;
+  margin-right: 210px;
+  width: 1500px; }
+
+.thumbPic:hover {
+  animation-name: thumbnailAnimation;
+  animation-duration: 1s; }
+
+@keyframes thumbnailAnimation {
+  from {
+    border: 0px solid yellow;
+    border-radius: 10px; }
+  to {
+    border: 5px solid yellow;
+    border-radius: 10px; } }
+#bottomSection {
+  background-color: #efe9e9;
+  height: 200px;
+  margin-top: 70px; }
+
+#bottomSection h2 {
+  font-size: 23px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px; }
+
+#bottomSection p {
+  text-align: center;
+  padding: 10px; }
+
+#bottomSection a {
+  margin-left: 130px;
+  padding: 10px; }
+
+#loginSection {
+  padding-left: 600px;
+  padding-top: 60px;
+  width: 1000px; }
+
+#submitButton2 {
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: gray;
+  float: right;
+  margin-bottom: 30px;
+  font-family: "Calibri";
+  color: white;
+  font-size: 20px;
+  border-radius: 10px; }
 
 .hide {
   display: none; }
@@ -142,6 +292,10 @@ ul {
 
 #banner {
   margin-left: 30px; }
+
+#parentsHeader {
+  color: #663091;
+  margin-left: 50px; }
 
 .bannerText {
   font-size: 25px;
